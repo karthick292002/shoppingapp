@@ -101,4 +101,7 @@ Feel free to fork the repository and submit pull requests for improvements.
 ## License
 
 This project is open-source. Check the license file for details.
+<<<<<<< HEAD
 
+=======
+>>>>>>> 15ca81c11e1a71abc3063b0c4889baf4bf96f520
