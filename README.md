@@ -1,73 +1,104 @@
-# Welcome to your Lovable project
+# ShopVerse React Mastery
 
-## Project info
+A modern, full-stack e-commerce platform built with React, featuring product browsing, shopping cart, secure checkout, user authentication, and an admin dashboard for inventory management.
 
-**URL**: https://lovable.dev/projects/7e3c38ee-f0b8-41ba-8665-f230bf042acd
+## Features
 
-## How can I edit this code?
+- **Product Browsing**: View and search through a catalog of products with detailed pages.
+- **Shopping Cart**: Add, remove, and manage items in the cart with real-time updates.
+- **User Authentication**: Secure login and registration using React Context.
+- **Checkout Process**: Complete purchases with form validation and order summary.
+- **Admin Dashboard**: Manage products, view orders, and handle inventory.
+- **Responsive Design**: Mobile-friendly UI built with Tailwind CSS and Shadcn/ui components.
+- **Theming**: Light and dark mode support with Next Themes.
 
-There are several ways of editing your application.
+## Tech Stack
 
-**Use Lovable**
+### Frontend
+- **React**: UI library for building the user interface.
+- **TypeScript**: Typed JavaScript for better code quality and developer experience.
+- **Vite**: Fast build tool and development server.
+- **Tailwind CSS**: Utility-first CSS framework for styling.
+- **Shadcn/ui**: Component library built on Radix UI primitives.
+- **React Router DOM**: Client-side routing for navigation.
+- **React Hook Form**: Form handling with validation.
+- **Zod**: Schema validation for forms and data.
+- **TanStack Query**: Data fetching and state management for API calls.
+- **Lucide React**: Icon library for UI elements.
+- **Recharts**: Chart library for data visualization (e.g., in admin dashboard).
+- **Sonner**: Toast notifications for user feedback.
+- **Next Themes**: Theme management for light/dark modes.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/7e3c38ee-f0b8-41ba-8665-f230bf042acd) and start prompting.
+### Development Tools
+- **ESLint**: Linting for code quality.
+- **PostCSS**: CSS processing with Autoprefixer.
+- **TypeScript ESLint**: TypeScript-specific linting rules.
 
-Changes made via Lovable will be committed automatically to this repo.
+### Package Manager
+- **Bun**: Fast JavaScript runtime and package manager (lockfile present; npm scripts also supported).
 
-**Use your preferred IDE**
+## Installation
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+1. Clone the repository:
+   ```bash
+   git clone <YOUR_GIT_URL>
+   cd shopverse-react-mastery
+   ```
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+2. Install dependencies (using Bun or npm):
+   ```bash
+   bun install
+   # or
+   npm install
+   ```
 
-Follow these steps:
+3. Start the development server:
+   ```bash
+   bun run dev
+   # or
+   npm run dev
+   ```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+4. Open [http://localhost:5173](http://localhost:5173) in your browser.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## Usage
 
-# Step 3: Install the necessary dependencies.
-npm i
+- Navigate to the home page to browse products.
+- Click on a product for details and add to cart.
+- Use the cart icon to view and manage your cart.
+- Proceed to checkout after logging in.
+- Access the admin panel at `/admin` for management features.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+## Build
+
+To build for production:
+```bash
+bun run build
+# or
+npm run build
 ```
 
-**Edit a file directly in GitHub**
+Preview the build:
+```bash
+bun run preview
+# or
+npm run preview
+```
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Linting
 
-**Use GitHub Codespaces**
+Run ESLint to check code quality:
+```bash
+bun run lint
+# or
+npm run lint
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Contributing
 
-## What technologies are used for this project?
+Feel free to fork the repository and submit pull requests for improvements.
 
-This project is built with:
+## License
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+This project is open-source. Check the license file for details.
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/7e3c38ee-f0b8-41ba-8665-f230bf042acd) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
